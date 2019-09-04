@@ -1,0 +1,13 @@
+.DS_Store
+
+.eslintignore
+.eslintrc
+
+.gitignore
+
+.npmignore
+.npmrc
+
+clean.sh
+
+babel.config.js

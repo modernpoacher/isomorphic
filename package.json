@@ -1,0 +1,61 @@
+{
+  "name": "@modernpoacher/isomorphic",
+  "version": "0.0.0",
+  "description": "Isomorphic",
+  "main": "./index.js",
+  "author": {
+    "email": "modernpoacher@modernpoacher.com",
+    "name": "Jonathan Perry for Modern Poacher Limited",
+    "url": "http://www.modernpoacher.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/modernpoacher/isomorphic.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "prebuild": "npm run clean",
+    "build": "npm run babel",
+    "clean": "bash clean.sh",
+    "babel": "babel src -d lib",
+    "babel:watch": "npm run babel -- -w",
+    "lint": "eslint *.js src",
+    "lint:fix": "npm run lint -- --fix",
+    "pre-commit": "npm run lint && npm run babel && git add lib",
+    "deps": "deps",
+    "deps:prod": "deps --save-prod",
+    "deps:dev": "deps --save-dev"
+  },
+  "dependencies": {
+    "@hapi/boom": "^7.4.3",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-redux": "5.1.1",
+    "react-router": "3.0.5",
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "@modernpoacher/deps": "0.0.6",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "core-js": "^3.2.1",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.0.5"
+  }
+}
