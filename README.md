@@ -1,27 +1,59 @@
-# React.Routes.Renderer
+# @modernpoacher/isomorphic
 
 A Promise interface for rendering isomorphic React components in Node.
 
-An example implementation can be found in `v1` of [React.Router.Pagination.IO](http://github.com/sequencemedia/React.Router.Pagination.IO.git).
+## Examples
 
-A companion package, `redux-routes-renderer`, is for React Redux applications.
-
-## Example
+### Without Redux
 
 In your web server:
 ```
-const { Renderer } = require('react-routes-renderer')
-
-const renderer = new Renderer()
+import render from '@modernpoacher/isomorphic'
 ```
 
 In your web server's request handler:
 
 ```
-const routes = require('./path/to/routes')
+import routes from './path/to/routes'
+
 const path = '/request/path'
 
-renderer.render(routes, path)
+render(routes, path)
+  .then((o) => {
+    /*
+     *  Your success response
+     */
+  .catch((e) => {
+    /*
+     *  Your failure response
+     */
+  })
+```
+
+### With Redux
+
+In your web server:
+```
+import render from '@modernpoacher/isomorphic/lib/redux'
+```
+
+Configure your store:
+
+```
+import configureStore from './path/to/store'
+
+const store = configureStore()
+```
+
+
+In your web server's request handler:
+
+```
+import routes from './path/to/routes'
+
+const path = '/request/path'
+
+render(store, routes, path)
   .then((o) => {
     /*
      *  Your success response
