@@ -1,7 +1,7 @@
 {
   "name": "@modernpoacher/isomorphic",
   "version": "0.0.1",
-  "description": "Isomorphic",
+  "description": "Isomorphic React + Redux + React Router",
   "main": "./index.js",
   "author": {
     "email": "modernpoacher@modernpoacher.com",
@@ -17,7 +17,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
     "build": "npm run babel",
-    "clean": "bash clean.sh",
+    "clean": "rimraf lib",
     "babel": "babel src -d lib",
     "babel:watch": "npm run babel -- -w",
     "lint": "eslint *.js src",
@@ -55,7 +55,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^3.0.5"
+    "husky": "^3.0.5",
+    "rimraf": "^3.0.0"
   },
   "peerDependencies": {
     "react": "^16.9.0",
