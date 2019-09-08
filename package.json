@@ -29,10 +29,10 @@
   },
   "dependencies": {
     "@hapi/boom": "^7.4.3",
-    "@sequencemedia/react-redux-render": "^1.0.5",
-    "@sequencemedia/react-render": "^1.0.5",
-    "@sequencemedia/react-router-redux-render": "^1.0.7",
-    "@sequencemedia/react-router-render": "^1.0.7"
+    "@sequencemedia/react-redux-render": "^1.0.6",
+    "@sequencemedia/react-render": "^1.0.6",
+    "@sequencemedia/react-router-redux-render": "^1.0.8",
+    "@sequencemedia/react-router-render": "^1.0.8"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
@@ -43,7 +43,7 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.6.0",
-    "@modernpoacher/deps": "0.0.6",
+    "@modernpoacher/deps": "0.0.9",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "babel-plugin-module-resolver": "^3.2.0",
