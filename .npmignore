@@ -5,9 +5,6 @@
 
 .gitignore
 
+# NPM
 .npmignore
 .npmrc
-
-clean.sh
-
-babel.config.js
