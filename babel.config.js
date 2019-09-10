@@ -20,7 +20,7 @@ module.exports = {
     [
       'module-resolver', {
         alias: {
-          '@modernpoacher/renderer': './src'
+          '@modernpoacher/isomorphic': './src'
         }
       }
     ]

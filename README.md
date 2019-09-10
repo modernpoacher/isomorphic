@@ -1,86 +1,52 @@
 # @modernpoacher/isomorphic
 
-A Promise interface for rendering isomorphic React components in Node.
+Implements:
 
-## Examples
+1. [@sequencemedia/react-render](https://github.com/sequencemedia/react-render)
+2. [@sequencemedia/react-router-render](https://github.com/sequencemedia/react-router-render)
+3. [@sequencemedia/react-redux-render](https://github.com/sequencemedia/react-redux-render)
+4. [@sequencemedia/react-router-redux-render](https://github.com/sequencemedia/react-render)
 
-### Without Redux
-
-In your web server:
-```
-import render from '@modernpoacher/isomorphic'
-```
-
-In your web server's request handler:
+## 1. React
 
 ```
-import routes from './path/to/routes'
-
-const path = '/request/path'
-
-render(routes, path)
-  .then((o) => {
-    /*
-     *  Your success response
-     */
-  .catch((e) => {
-    /*
-     *  Your failure response
-     */
-  })
+import { 
+  renderToString,
+  renderToStaticMarkup,
+  render
+} from '@modernpoacher/isomorphic/lib'
 ```
 
-### With Redux
-
-In your web server:
-```
-import render from '@modernpoacher/isomorphic/lib/redux'
-```
-
-Configure your store:
+## 2. React Router
 
 ```
-import configureStore from './path/to/store'
-
-const store = configureStore()
+import { 
+  renderToString,
+  renderToStaticMarkup,
+  render
+} from '@modernpoacher/isomorphic/lib/react-router'
 ```
 
-
-In your web server's request handler:
-
-```
-import routes from './path/to/routes'
-
-const path = '/request/path'
-
-render(store, routes, path)
-  .then((o) => {
-    /*
-     *  Your success response
-     */
-  .catch((e) => {
-    /*
-     *  Your failure response
-     */
-  })
-```
-
-If React Router can match the request path to a route definition and it is rendered, then your server's success response handler will receive an object which looks like:
+## 3. React + Redux
 
 ```
-{ rendered: /* String */ }
+import { 
+  renderToString,
+  renderToStaticMarkup,
+  render
+} from '@modernpoacher/isomorphic/lib/redux'
 ```
 
-The `rendered` string will be whatever is returned from `ReactDOMServer.renderToString()`.
-
-If React Router matches the request path to a redirect definition, then your success response handler will receive an object which looks like:
+## 4. React Router + Redux
 
 ```
-{ redirect: /* Object */ }
+import { 
+  renderToString,
+  renderToStaticMarkup,
+  render
+} from '@modernpoacher/isomorphic/lib/react-router/redux'
 ```
 
-The `redirect` object will be whatever `location` is returned from `match()`.
+## Implementation
 
-If `match()` encounters an error, or `ReactDOMServer.renderToString()` encounters an error, then your error response handler will receive an error object; this is a `500 Internal Server Error`.
-
-If `match()` cannot match the request path to a route definition, then your error response handler will receive a different error; this is a `404 Not Found`.
+Each function returns a string (or resolves to a string in the case of `render` which returns a `Promise`).
