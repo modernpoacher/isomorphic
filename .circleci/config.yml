@@ -28,7 +28,7 @@ jobs:
             fi
 
 workflows:
-    build-and-test:
+    test-and-publish:
       jobs:
         - publish:
             filters:
