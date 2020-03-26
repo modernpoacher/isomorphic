@@ -18,8 +18,9 @@ jobs:
           command: |
             set -e
 
+            NAME=$(node -p "require('./package.json').name")
             VERSION=$(node -p "require('./package.json').version")
-            PUBLISHED_VERSION=$(npm view @modernpoacher/isomorphic version);
+            PUBLISHED_VERSION=$(npm view $NAME version)
 
             if [ "$VERSION" != "$PUBLISHED_VERSION" ]
             then
