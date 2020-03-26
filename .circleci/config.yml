@@ -2,16 +2,36 @@ version: 2.1
 orbs:
   node: circleci/node@1.1.6
 jobs:
-  build-and-test:
+  publish:
     executor:
       name: node/default
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install
-            - run: npm test
+      - run:
+          name: Authenticate with NPM
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      - run:
+          name: Install
+          command: npm install
+      - run:
+          name: Publish package to NPM
+          command: |
+            set -e
+
+            VERSION=$(node -p "require('./package.json').version")
+            PUBLISHED_VERSION=$(npm view @modernpoacher/isomorphic version);
+
+            if [ "$VERSION" != "$PUBLISHED_VERSION" ]
+            then
+              npm publish
+            fi
+
 workflows:
     build-and-test:
       jobs:
-        - build-and-test
+        - publish:
+            filters:
+              tags:
+                only: /^v.*/
+              branches:
+                only: master
