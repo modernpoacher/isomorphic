@@ -23,7 +23,7 @@
     "lint": "eslint *.js src",
     "lint:fix": "npm run lint -- --fix",
     "test": "npm install react redux react-dom react-redux react-router react-router-dom --no-save && mocha test --recursive -r @babel/register",
-    "pre-commit": "npm run lint && && npm test && npm run build && git add lib"
+    "pre-commit": "npm run lint && npm test && npm run build && git add lib"
   },
   "dependencies": {
     "@hapi/boom": "^9.1.0",
