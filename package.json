@@ -22,6 +22,7 @@
     "babel:watch": "npm run babel -- -w",
     "lint": "eslint *.js src",
     "lint:fix": "npm run lint -- --fix",
+    "test": "npm install react redux react-dom react-redux react-router react-router-dom --no-save && mocha test --recursive -r @babel/register",
     "pre-commit": "npm run lint && npm run babel && git add lib"
   },
   "dependencies": {
@@ -43,6 +44,7 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
+    "chai": "^4.2.0",
     "core-js": "^3.6.4",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
@@ -52,6 +54,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.3",
+    "mocha": "^7.1.1",
     "rimraf": "^3.0.2"
   },
   "peerDependencies": {
