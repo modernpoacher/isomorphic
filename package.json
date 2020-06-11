@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@hapi/boom": "^9.1.0",
-    "@sequencemedia/react-redux-render": "^1.0.8",
-    "@sequencemedia/react-render": "^1.0.8",
-    "@sequencemedia/react-router-redux-render": "^1.0.10",
-    "@sequencemedia/react-router-render": "^1.0.10"
+    "@sequencemedia/react-redux-render": "^1.0.9",
+    "@sequencemedia/react-render": "^1.0.9",
+    "@sequencemedia/react-router-redux-render": "^1.0.12",
+    "@sequencemedia/react-router-render": "^1.0.12"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
