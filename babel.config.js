@@ -4,7 +4,7 @@ const log = debug('@modernpoacher/isomorphic')
 
 const {
   env: {
-    DEBUG = '@modernpoacher/isomorphic',
+    DEBUG = '@modernpoacher/isomorphic*',
     NODE_ENV = 'development'
   }
 } = process
