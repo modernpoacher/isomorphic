@@ -44,7 +44,7 @@ jobs:
             fi
 
 workflows:
-    lint_test_and_publish:
+    commit-workflow:
       jobs:
         - lint_and_test
         - publish:
