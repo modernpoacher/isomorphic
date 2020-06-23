@@ -14,17 +14,18 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepare": "npm run clean && cross-env DEBUG=@modernpoacher/isomorphic* NODE_ENV=production npm run build",
-    "install": "npm run clean && cross-env DEBUG=@modernpoacher/isomorphic* NODE_ENV=production npm run build",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "install": "npm run prepare",
     "prebuild": "npm run clean",
     "build": "npm run babel",
+    "build:watch": "npm run babel:watch",
     "clean": "rimraf lib",
     "babel": "babel src -d lib",
     "babel:watch": "npm run babel -- -w",
     "lint": "eslint *.js src",
     "lint:fix": "npm run lint -- --fix",
     "test": "mocha test --recursive -r @babel/register",
-    "pre-commit": "npm run lint && npm test && npm run clean && npm run build && git add lib"
+    "pre-commit": "npm run lint && npm test && npm run build && git add lib"
   },
   "dependencies": {
     "@hapi/boom": "^9.1.0",
@@ -32,9 +33,7 @@
     "@sequencemedia/react-render": "^1.0.9",
     "@sequencemedia/react-router-redux-render": "^1.0.12",
     "@sequencemedia/react-router-render": "^1.0.12",
-    "cross-env": "^7.0.2",
-    "debug": "^4.1.1",
-    "rimraf": "^3.0.2"
+    "debug": "^4.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
@@ -50,6 +49,7 @@
     "babel-plugin-module-resolver": "^4.0.0",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",
+    "cross-env": "^7.0.2",
     "eslint": "^7.3.1",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.21.2",
@@ -64,7 +64,8 @@
     "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "rimraf": "^3.0.2"
   },
   "peerDependencies": {
     "react": "^16.13.1",

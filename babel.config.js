@@ -13,6 +13,14 @@ debug.enable(DEBUG)
 
 log('`@modernpoacher/isomorphic` is awake')
 
+function env () {
+  log({ NODE_ENV })
+
+  return (
+    NODE_ENV === 'production'
+  )
+}
+
 const presets = [
   [
     '@babel/env', {
@@ -39,14 +47,8 @@ const plugins = [
   ]
 ]
 
-function using () {
-  log({ NODE_ENV })
-
-  return NODE_ENV === 'production'
-}
-
 module.exports = (api) => {
-  if (api) api.cache.using(using)
+  if (api) api.cache.using(env)
 
   return {
     compact: true,
