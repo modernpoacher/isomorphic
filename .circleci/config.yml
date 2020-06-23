@@ -2,7 +2,7 @@ version: 2.1
 orbs:
   node: circleci/node@1.1.6
 jobs:
-  test:
+  lint-and-test:
     executor:
       name: node/default
     steps:
@@ -44,12 +44,12 @@ jobs:
             fi
 
 workflows:
-    test-and-publish:
+    lint-test-and-publish:
       jobs:
-        - test
+        - lint-and-test
         - publish:
             requires:
-              - test
+              - lint-and-test
             filters:
               tags:
                 only: /^v.*/
