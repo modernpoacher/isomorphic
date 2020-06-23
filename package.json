@@ -14,7 +14,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepare": "cross-env DEBUG=@modernpoacher/isomorphic* NODE_ENV=production npm run build",
+    "install": "cross-env DEBUG=@modernpoacher/isomorphic* NODE_ENV=production npm run build",
     "prebuild": "npm run clean",
     "build": "npm run babel",
     "clean": "rimraf lib",
@@ -30,7 +31,9 @@
     "@sequencemedia/react-redux-render": "^1.0.9",
     "@sequencemedia/react-render": "^1.0.9",
     "@sequencemedia/react-router-redux-render": "^1.0.12",
-    "@sequencemedia/react-router-render": "^1.0.12"
+    "@sequencemedia/react-router-render": "^1.0.12",
+    "cross-env": "^7.0.2",
+    "debug": "^4.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
