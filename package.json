@@ -8,13 +8,13 @@
     "name": "Jonathan Perry for Modern Poacher Limited",
     "url": "http://www.modernpoacher.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/modernpoacher/isomorphic.git"
-  },
   "license": "MIT",
   "engines": {
     "node": ">=12.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/modernpoacher/isomorphic.git"
   },
   "scripts": {
     "prepublishOnly": "cross-env NODE_ENV=production npm run build",
