@@ -17,8 +17,7 @@
     "node": ">=12.18.1"
   },
   "scripts": {
-    "prepare": "cross-env NODE_ENV=production npm run build",
-    "install": "npm run prepare",
+    "prepublishOnly": "cross-env NODE_ENV=production npm run build",
     "prebuild": "npm run clean",
     "build": "npm run babel",
     "build:watch": "npm run babel:watch",
