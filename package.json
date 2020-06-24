@@ -25,7 +25,7 @@
     "clean": "rimraf lib",
     "babel": "babel src -d lib",
     "babel:watch": "npm run babel -- -w",
-    "lint": "eslint *.js src",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "test": "mocha test --recursive -r @babel/register",
     "pre-commit": "npm run lint && npm test && npm run build && git add lib"
