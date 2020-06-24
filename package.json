@@ -13,6 +13,9 @@
     "url": "git://github.com/modernpoacher/isomorphic.git"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=12.18.1"
+  },
   "scripts": {
     "prepare": "cross-env NODE_ENV=production npm run build",
     "install": "npm run prepare",
