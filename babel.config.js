@@ -4,12 +4,9 @@ const log = debug('@modernpoacher/isomorphic')
 
 const {
   env: {
-    DEBUG = '@modernpoacher/isomorphic',
     NODE_ENV = 'development'
   }
 } = process
-
-debug.enable(DEBUG)
 
 log('`@modernpoacher/isomorphic` is awake')
 
