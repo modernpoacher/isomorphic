@@ -31,10 +31,10 @@
   },
   "dependencies": {
     "@hapi/boom": "^9.1.0",
-    "@sequencemedia/react-redux-render": "^1.0.9",
-    "@sequencemedia/react-render": "^1.0.9",
-    "@sequencemedia/react-router-redux-render": "^1.0.12",
-    "@sequencemedia/react-router-render": "^1.0.12",
+    "@sequencemedia/react-redux-render": "^1.0.10",
+    "@sequencemedia/react-render": "^1.0.10",
+    "@sequencemedia/react-router-redux-render": "^1.0.13",
+    "@sequencemedia/react-router-render": "^1.0.13",
     "debug": "^4.1.1"
   },
   "devDependencies": {
@@ -54,7 +54,7 @@
     "cross-env": "^7.0.2",
     "eslint": "^7.3.1",
     "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.0",
