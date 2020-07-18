@@ -7,40 +7,40 @@ Implements:
 3. [@sequencemedia/react-redux-render](https://github.com/sequencemedia/react-redux-render)
 4. [@sequencemedia/react-router-redux-render](https://github.com/sequencemedia/react-render)
 
-## 1. React
+## 1. *React*
 
-```
-import { 
+```javascript
+import {
   renderToString,
   renderToStaticMarkup,
   render
 } from '@modernpoacher/isomorphic/lib'
 ```
 
-## 2. React Router
+## 2. *React Router*
 
-```
-import { 
+```javascript
+import {
   renderToString,
   renderToStaticMarkup,
   render
 } from '@modernpoacher/isomorphic/lib/react-router'
 ```
 
-## 3. React + Redux
+## 3. *React* + *Redux*
 
-```
-import { 
+```javascript
+import {
   renderToString,
   renderToStaticMarkup,
   render
 } from '@modernpoacher/isomorphic/lib/redux'
 ```
 
-## 4. React Router + Redux
+## 4. *React Router* + *Redux*
 
-```
-import { 
+```javascript
+import {
   renderToString,
   renderToStaticMarkup,
   render
