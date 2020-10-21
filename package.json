@@ -31,10 +31,10 @@
   },
   "dependencies": {
     "@hapi/boom": "^9.1.0",
-    "@sequencemedia/react-redux-render": "^1.0.11",
-    "@sequencemedia/react-render": "^1.0.11",
-    "@sequencemedia/react-router-redux-render": "^1.0.14",
-    "@sequencemedia/react-router-render": "^1.0.14",
+    "@sequencemedia/react-redux-render": "^1.0.12",
+    "@sequencemedia/react-render": "^1.0.12",
+    "@sequencemedia/react-router-redux-render": "^1.0.15",
+    "@sequencemedia/react-router-render": "^1.0.15",
     "debug": "^4.2.0"
   },
   "devDependencies": {
