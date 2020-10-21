@@ -27,14 +27,10 @@ const presets = [
       useBuiltIns: 'usage',
       corejs: 3
     }
-  ],
-  '@babel/react'
+  ]
 ]
 
 const plugins = [
-  '@babel/proposal-export-default-from',
-  '@babel/proposal-export-namespace-from',
-  '@babel/proposal-class-properties',
   [
     'module-resolver', {
       alias: {
