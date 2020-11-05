@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@sequencemedia/react-redux-render": "1.0.14",
-    "@sequencemedia/react-render": "1.0.14",
+    "@sequencemedia/react-render": "2.0.0",
     "@sequencemedia/react-router-redux-render": "1.0.17",
     "@sequencemedia/react-router-render": "1.0.17",
     "debug": "^4.2.0"
