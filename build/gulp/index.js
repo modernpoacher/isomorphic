@@ -4,7 +4,7 @@ import {
   exec
 } from 'child_process'
 
-const log = debug('@@modernpoacher/isomorphic:build:gulp:pre-commit')
+const log = debug('@modernpoacher/isomorphic:build:gulp:pre-commit')
 
 log('`@modernpoacher/isomorphic` is awake')
 
