@@ -1,6 +1,6 @@
 {
   "name": "@modernpoacher/isomorphic",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "description": "Isomorphic React + Redux + React Router",
   "main": "./index.js",
   "author": {
@@ -60,7 +60,7 @@
     "prop-types": "15.7.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "react-redux": "^7.2.5",
+    "react-redux": "^7.2.6",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "redux": "^4.1.1",
