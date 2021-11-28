@@ -1,6 +1,6 @@
 {
   "name": "@modernpoacher/isomorphic",
-  "version": "0.0.72",
+  "version": "0.0.73",
   "description": "Isomorphic React + Redux + React Router",
   "main": "./index.js",
   "author": {
@@ -35,7 +35,7 @@
     "@sequencemedia/react-render": "1.0.14",
     "@sequencemedia/react-router-redux-render": "1.0.17",
     "@sequencemedia/react-router-render": "1.0.17",
-    "debug": "^4.3.2"
+    "debug": "^4.3.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
