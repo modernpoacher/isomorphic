@@ -28,7 +28,8 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "cross-env NODE_ENV=test mocha test --recursive -r @babel/register",
     "gulp": "gulp --color",
-    "pre-commit": "npm run lint && npm test && npm run build && git add lib && npm run gulp -- pre-commit"
+    "pre-commit": "npm run lint && npm test && npm run build && git add lib",
+    "post-commit": "cross-env DEBUG=@modernpoacher/hooks,@modernpoacher/hooks:* npm run gulp -- post-commit"
   },
   "dependencies": {
     "@sequencemedia/react-redux-render": "1.0.14",
@@ -43,6 +44,7 @@
     "@babel/eslint-parser": "^7.16.5",
     "@babel/preset-env": "^7.16.7",
     "@babel/register": "^7.16.7",
+    "@modernpoacher/hooks": "^1.0.0",
     "babel-plugin-module-resolver": "^4.1.0",
     "chai": "^4.3.4",
     "core-js": "^3.20.2",
