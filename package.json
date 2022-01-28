@@ -1,6 +1,6 @@
 {
   "name": "@modernpoacher/isomorphic",
-  "version": "0.0.107",
+  "version": "0.0.108",
   "description": "Isomorphic React + Redux + React Router",
   "main": "./index.js",
   "author": {
