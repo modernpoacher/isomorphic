@@ -36,7 +36,7 @@
     "@sequencemedia/react-render": "1.0.14",
     "@sequencemedia/react-router-redux-render": "1.0.17",
     "@sequencemedia/react-router-render": "1.0.17",
-    "debug": "^4.3.3"
+    "debug": "^4.3.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
@@ -44,7 +44,7 @@
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/register": "^7.17.7",
-    "@modernpoacher/hooks": "^1.0.56",
+    "@modernpoacher/hooks": "^1.0.58",
     "babel-plugin-module-resolver": "^4.1.0",
     "chai": "^4.3.6",
     "core-js": "^3.21.1",
