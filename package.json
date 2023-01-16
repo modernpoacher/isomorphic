@@ -44,12 +44,12 @@
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-env": "^7.20.2",
     "@babel/register": "^7.18.9",
-    "@modernpoacher/hooks": "^1.0.286",
+    "@modernpoacher/hooks": "^1.0.287",
     "babel-plugin-module-resolver": "4.1.0",
     "chai": "^4.3.7",
     "core-js": "^3.27.1",
     "cross-env": "^7.0.3",
-    "eslint": "^8.31.0",
+    "eslint": "^8.32.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-import-resolver-babel-module": "^5.3.1",
     "eslint-plugin-import": "^2.27.4",
@@ -66,6 +66,6 @@
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "redux": "^4.2.0",
-    "rimraf": "^4.0.5"
+    "rimraf": "^4.0.7"
   }
 }
