@@ -1,6 +1,6 @@
 import debug from 'debug'
 
-const log = debug('@modernpoacher/isomorphic/redux:render')
+const log = debug('@modernpoacher/isomorphic/redux/render')
 
 log('`render` is awake')
 

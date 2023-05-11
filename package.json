@@ -2,7 +2,8 @@
   "name": "@modernpoacher/isomorphic",
   "version": "1.0.10",
   "description": "Isomorphic React + Redux + React Router",
-  "main": "./index.js",
+  "main": "./src/index.cjs",
+  "type": "module",
   "author": {
     "email": "modernpoacher@modernpoacher.com",
     "name": "Jonathan Perry for Modern Poacher Limited",
@@ -10,23 +11,16 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=16.13.0"
+    "node": ">=18.5.0"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/modernpoacher/isomorphic.git"
   },
   "scripts": {
-    "prepublishOnly": "cross-env NODE_ENV=production npm run build",
-    "prebuild": "npm run clean",
-    "build": "npm run babel",
-    "build:watch": "npm run babel:watch",
-    "clean": "rimraf lib",
-    "babel": "babel src -d lib",
-    "babel:watch": "npm run babel -- -w",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .mjs --ext .cjs",
     "lint:fix": "npm run lint -- --fix",
-    "test": "cross-env NODE_ENV=test mocha test --recursive -r @babel/register"
+    "test": "cross-env NODE_ENV=test mocha test --recursive"
   },
   "dependencies": {
     "@sequencemedia/react-redux-render": "1.0.14",
@@ -63,5 +57,23 @@
     "react-router-dom": "5.2.0",
     "redux": "^4.2.1",
     "rimraf": "^5.0.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./src/index.cjs",
+      "import": "./src/index.mjs"
+    },
+    "./redux": {
+      "require": "./src/redux/index.cjs",
+      "import": "./src/redux/index.mjs"
+    },
+    "./react-router": {
+      "require": "./src/react-router/index.cjs",
+      "import": "./src/react-router/index.mjs"
+    },
+    "./react-router/redux": {
+      "require": "./src/react-router/redux/index.cjs",
+      "import": "./src/react-router/redux/index.mjs"
+    }
   }
 }
