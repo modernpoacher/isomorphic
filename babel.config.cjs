@@ -30,21 +30,10 @@ const presets = [
   ]
 ]
 
-const plugins = [
-  [
-    'module-resolver', {
-      alias: {
-        '@modernpoacher/isomorphic': './src'
-      }
-    }
-  ]
-]
-
 module.exports = (api) => {
   if (api) api.cache.using(env)
 
   return {
-    presets,
-    plugins
+    presets
   }
 }
