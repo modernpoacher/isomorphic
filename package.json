@@ -20,7 +20,8 @@
   "scripts": {
     "lint": "eslint . --ext .mjs --ext .cjs",
     "lint:fix": "npm run lint -- --fix",
-    "test": "cross-env NODE_ENV=test mocha test --recursive"
+    "test": "cross-env NODE_ENV=test mocha test --recursive",
+    "prepare": "npx husky install"
   },
   "dependencies": {
     "@sequencemedia/react-redux-render": "1.0.14",
@@ -50,8 +51,7 @@
     "react-redux": "^8.0.5",
     "react-router": "^6.11.1",
     "react-router-dom": "^6.11.1",
-    "redux": "^4.2.1",
-    "rimraf": "^5.0.0"
+    "redux": "^4.2.1"
   },
   "exports": {
     ".": {
