@@ -21,7 +21,7 @@
     "lint": "eslint . --ext .mjs --ext .cjs",
     "lint:fix": "npm run lint -- --fix",
     "test": "cross-env NODE_ENV=test mocha test --recursive",
-    "prepare": "npx husky install"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@sequencemedia/react-redux-render": "2.2.2",
@@ -31,9 +31,9 @@
     "debug": "^4.3.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.8",
+    "@babel/core": "^7.22.1",
     "@babel/eslint-parser": "^7.21.8",
-    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-env": "^7.22.2",
     "@babel/preset-react": "^7.22.0",
     "@babel/register": "^7.21.0",
     "@modernpoacher/hooks": "^1.0.410",
