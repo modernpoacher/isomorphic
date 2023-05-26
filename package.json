@@ -2,7 +2,7 @@
   "name": "@modernpoacher/isomorphic",
   "version": "1.1.0",
   "description": "Isomorphic React + Redux + React Router",
-  "main": "./src/index.cjs",
+  "main": "./src/index.mjs",
   "type": "module",
   "author": {
     "email": "modernpoacher@modernpoacher.com",
@@ -24,16 +24,18 @@
     "prepare": "npx husky install"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.1.0",
-    "@sequencemedia/react-render": "2.1.0",
-    "@sequencemedia/react-router-redux-render": "2.1.0",
-    "@sequencemedia/react-router-render": "2.1.0",
+    "@sequencemedia/react-redux-render": "2.2.2",
+    "@sequencemedia/react-render": "2.2.2",
+    "@sequencemedia/react-router-redux-render": "2.2.2",
+    "@sequencemedia/react-router-render": "2.2.2",
     "debug": "^4.3.4"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/eslint-parser": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.22.0",
+    "@babel/register": "^7.21.0",
     "@modernpoacher/hooks": "^1.0.410",
     "chai": "^4.3.7",
     "core-js": "^3.30.2",
@@ -54,21 +56,9 @@
     "redux": "^4.2.1"
   },
   "exports": {
-    ".": {
-      "require": "./src/index.cjs",
-      "import": "./src/index.mjs"
-    },
-    "./redux": {
-      "require": "./src/redux/index.cjs",
-      "import": "./src/redux/index.mjs"
-    },
-    "./react-router": {
-      "require": "./src/react-router/index.cjs",
-      "import": "./src/react-router/index.mjs"
-    },
-    "./react-router/redux": {
-      "require": "./src/react-router/redux/index.cjs",
-      "import": "./src/react-router/redux/index.mjs"
-    }
+    ".": "./src/index.mjs",
+    "./redux": "./src/redux/index.mjs",
+    "./react-router": "./src/react-router/index.mjs",
+    "./react-router/redux": "./src/react-router/redux/index.mjs"
   }
 }

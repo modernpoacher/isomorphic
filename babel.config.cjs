@@ -27,13 +27,20 @@ const presets = [
       useBuiltIns: 'usage',
       corejs: 3
     }
-  ]
+  ],
+  '@babel/react'
+]
+
+const plugins = [
+  '@babel/syntax-jsx'
 ]
 
 module.exports = (api) => {
   if (api) api.cache.using(env)
 
   return {
-    presets
+    presets,
+    plugins,
+    ignore: [/node_modules\/(?!@sequencemedia)/]
   }
 }
