@@ -2,6 +2,6 @@ import debug from 'debug'
 
 const log = debug('@modernpoacher/isomorphic/react-router/redux/render')
 
-log('`render` is awake')
+log('`@modernpoacher/isomorphic` is awake')
 
 export * from '@sequencemedia/react-router-redux-render'
