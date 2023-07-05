@@ -24,10 +24,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.21",
-    "@sequencemedia/react-render": "2.2.21",
-    "@sequencemedia/react-router-redux-render": "2.2.22",
-    "@sequencemedia/react-router-render": "2.2.21",
+    "@sequencemedia/react-redux-render": "2.2.22",
+    "@sequencemedia/react-render": "2.2.22",
+    "@sequencemedia/react-router-redux-render": "2.2.23",
+    "@sequencemedia/react-router-render": "2.2.22",
     "debug": "^4.3.4"
   },
   "devDependencies": {
