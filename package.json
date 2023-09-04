@@ -31,11 +31,11 @@
     "debug": "^4.3.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.11",
-    "@babel/eslint-parser": "^7.22.11",
-    "@babel/preset-env": "^7.22.14",
-    "@babel/preset-react": "^7.22.5",
-    "@babel/register": "^7.22.5",
+    "@babel/core": "^7.22.15",
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/register": "^7.22.15",
     "@modernpoacher/hooks": "^1.0.432",
     "chai": "4.3.7",
     "core-js": "^3.32.1",
