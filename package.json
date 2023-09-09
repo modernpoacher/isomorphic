@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=18.5.0"
+    "node": ">=18.12.0"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.37",
-    "@sequencemedia/react-render": "2.2.37",
-    "@sequencemedia/react-router-redux-render": "2.3.8",
-    "@sequencemedia/react-router-render": "2.3.8",
+    "@sequencemedia/react-redux-render": "2.2.38",
+    "@sequencemedia/react-render": "2.2.38",
+    "@sequencemedia/react-router-redux-render": "2.3.9",
+    "@sequencemedia/react-router-render": "2.3.9",
     "debug": "^4.3.4"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
     "@babel/preset-env": "^7.22.15",
     "@babel/preset-react": "^7.22.15",
     "@babel/register": "^7.22.15",
-    "@modernpoacher/hooks": "^1.0.433",
+    "@modernpoacher/hooks": "^1.0.434",
     "chai": "4.3.7",
     "core-js": "^3.32.2",
     "cross-env": "^7.0.3",
