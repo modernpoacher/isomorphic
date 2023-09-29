@@ -24,10 +24,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.45",
-    "@sequencemedia/react-render": "2.2.45",
-    "@sequencemedia/react-router-redux-render": "2.3.16",
-    "@sequencemedia/react-router-render": "2.3.16",
+    "@sequencemedia/react-redux-render": "2.2.46",
+    "@sequencemedia/react-render": "2.2.46",
+    "@sequencemedia/react-router-redux-render": "2.3.17",
+    "@sequencemedia/react-router-render": "2.3.17",
     "debug": "^4.3.4"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "@babel/preset-react": "^7.22.15",
     "@babel/register": "^7.22.15",
     "@modernpoacher/hooks": "^1.0.438",
-    "chai": "^4.3.9",
+    "chai": "^4.3.10",
     "core-js": "^3.32.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.50.0",
