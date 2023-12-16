@@ -24,10 +24,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.68",
-    "@sequencemedia/react-render": "2.2.65",
-    "@sequencemedia/react-router-redux-render": "2.3.38",
-    "@sequencemedia/react-router-render": "2.3.35",
+    "@sequencemedia/react-redux-render": "2.2.69",
+    "@sequencemedia/react-render": "2.2.66",
+    "@sequencemedia/react-router-redux-render": "2.3.39",
+    "@sequencemedia/react-router-render": "2.3.36",
     "debug": "^4.3.4"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "chai": "^4.3.10",
     "core-js": "^3.34.0",
     "cross-env": "^7.0.3",
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
     "husky": "^8.0.3",
     "mocha": "^10.2.0",
