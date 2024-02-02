@@ -24,10 +24,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.78",
-    "@sequencemedia/react-render": "2.2.73",
-    "@sequencemedia/react-router-redux-render": "2.3.47",
-    "@sequencemedia/react-router-render": "2.3.43",
+    "@sequencemedia/react-redux-render": "2.2.79",
+    "@sequencemedia/react-render": "2.2.74",
+    "@sequencemedia/react-router-redux-render": "2.3.48",
+    "@sequencemedia/react-router-render": "2.3.44",
     "debug": "^4.3.4"
   },
   "devDependencies": {
@@ -36,20 +36,20 @@
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
     "@babel/register": "^7.23.7",
-    "@modernpoacher/hooks": "^1.0.460",
+    "@modernpoacher/hooks": "^1.0.461",
     "chai": "^5.0.3",
     "core-js": "^3.35.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
-    "husky": "^9.0.7",
+    "husky": "^9.0.10",
     "mocha": "^10.2.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.0",
-    "react-router": "^6.21.3",
-    "react-router-dom": "^6.21.3",
+    "react-router": "^6.22.0",
+    "react-router-dom": "^6.22.0",
     "redux": "^5.0.1"
   },
   "exports": {
