@@ -21,13 +21,13 @@
     "lint": "eslint . --ext .mjs,.cjs",
     "lint:fix": "npm run lint -- --fix",
     "test": "cross-env NODE_ENV=test mocha test --recursive",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.83",
-    "@sequencemedia/react-render": "2.2.78",
-    "@sequencemedia/react-router-redux-render": "2.3.52",
-    "@sequencemedia/react-router-render": "2.3.48",
+    "@sequencemedia/react-redux-render": "2.2.84",
+    "@sequencemedia/react-render": "2.2.79",
+    "@sequencemedia/react-router-redux-render": "2.3.53",
+    "@sequencemedia/react-router-render": "2.3.49",
     "debug": "^4.3.4"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
     "@babel/register": "^7.23.7",
-    "@modernpoacher/hooks": "^1.0.463",
+    "@modernpoacher/hooks": "^1.0.464",
     "chai": "^5.1.0",
     "core-js": "^3.36.0",
     "cross-env": "^7.0.3",
