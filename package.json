@@ -24,16 +24,16 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.90",
-    "@sequencemedia/react-render": "2.2.85",
-    "@sequencemedia/react-router-redux-render": "2.3.59",
-    "@sequencemedia/react-router-render": "2.3.55",
+    "@sequencemedia/react-redux-render": "2.2.91",
+    "@sequencemedia/react-render": "2.2.86",
+    "@sequencemedia/react-router-redux-render": "2.3.60",
+    "@sequencemedia/react-router-render": "2.3.56",
     "debug": "^4.3.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.1",
+    "@babel/core": "^7.24.3",
     "@babel/eslint-parser": "^7.24.1",
-    "@babel/preset-env": "^7.24.1",
+    "@babel/preset-env": "^7.24.3",
     "@babel/preset-react": "^7.24.1",
     "@babel/register": "^7.23.7",
     "@modernpoacher/hooks": "^1.0.469",
