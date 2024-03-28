@@ -24,10 +24,10 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.92",
-    "@sequencemedia/react-render": "2.2.87",
-    "@sequencemedia/react-router-redux-render": "2.3.61",
-    "@sequencemedia/react-router-render": "2.3.57",
+    "@sequencemedia/react-redux-render": "2.2.93",
+    "@sequencemedia/react-render": "2.2.88",
+    "@sequencemedia/react-router-redux-render": "2.3.62",
+    "@sequencemedia/react-router-render": "2.3.58",
     "debug": "^4.3.4"
   },
   "devDependencies": {
