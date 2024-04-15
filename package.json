@@ -24,9 +24,9 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.95",
+    "@sequencemedia/react-redux-render": "2.2.96",
     "@sequencemedia/react-render": "2.2.90",
-    "@sequencemedia/react-router-redux-render": "2.3.64",
+    "@sequencemedia/react-router-redux-render": "2.3.65",
     "@sequencemedia/react-router-render": "2.3.60",
     "debug": "^4.3.4"
   },
