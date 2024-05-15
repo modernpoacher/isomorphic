@@ -24,10 +24,10 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.101",
-    "@sequencemedia/react-render": "2.2.94",
-    "@sequencemedia/react-router-redux-render": "2.3.70",
-    "@sequencemedia/react-router-render": "2.3.64",
+    "@sequencemedia/react-redux-render": "2.2.102",
+    "@sequencemedia/react-render": "2.2.95",
+    "@sequencemedia/react-router-redux-render": "2.3.71",
+    "@sequencemedia/react-router-render": "2.3.65",
     "debug": "^4.3.4"
   },
   "devDependencies": {
@@ -36,9 +36,9 @@
     "@babel/preset-env": "^7.24.5",
     "@babel/preset-react": "^7.24.1",
     "@babel/register": "^7.23.7",
-    "@modernpoacher/hooks": "^1.0.474",
+    "@modernpoacher/hooks": "^1.0.475",
     "chai": "^5.1.1",
-    "core-js": "^3.37.0",
+    "core-js": "^3.37.1",
     "cross-env": "^7.0.3",
     "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0",
