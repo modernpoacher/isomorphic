@@ -28,7 +28,7 @@
     "@sequencemedia/react-render": "2.2.118",
     "@sequencemedia/react-router-redux-render": "2.3.94",
     "@sequencemedia/react-router-render": "2.3.88",
-    "debug": "^4.3.5"
+    "debug": "^4.3.6"
   },
   "devDependencies": {
     "@babel/core": "^7.24.9",
