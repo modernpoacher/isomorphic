@@ -24,10 +24,10 @@
     "test": "cross-env NODE_ENV=test mocha test --recursive"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.2.133",
-    "@sequencemedia/react-render": "2.2.126",
-    "@sequencemedia/react-router-redux-render": "2.3.102",
-    "@sequencemedia/react-router-render": "2.3.96",
+    "@sequencemedia/react-redux-render": "2.2.134",
+    "@sequencemedia/react-render": "2.2.127",
+    "@sequencemedia/react-router-redux-render": "2.3.103",
+    "@sequencemedia/react-router-render": "2.3.97",
     "debug": "^4.3.6"
   },
   "devDependencies": {
@@ -36,9 +36,9 @@
     "@babel/preset-env": "^7.25.3",
     "@babel/preset-react": "^7.24.7",
     "@babel/register": "^7.24.6",
-    "@modernpoacher/hooks": "^1.0.489",
+    "@modernpoacher/hooks": "^1.0.490",
     "chai": "^5.1.1",
-    "core-js": "^3.37.1",
+    "core-js": "^3.38.0",
     "cross-env": "^7.0.3",
     "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0",
