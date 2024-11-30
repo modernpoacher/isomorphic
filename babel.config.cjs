@@ -42,6 +42,8 @@ module.exports = (api) => {
   return {
     presets,
     plugins,
-    ignore: [/node_modules\/(?!@sequencemedia)/]
+    ignore: [
+      /node_modules\/(?!@sequencemedia)/
+    ]
   }
 }
