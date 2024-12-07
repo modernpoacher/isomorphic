@@ -25,10 +25,10 @@
   },
   "dependencies": {
     "@sequencemedia/react-redux-render": "2.3.3",
-    "@sequencemedia/react-render": "2.3.3",
+    "@sequencemedia/react-render": "2.3.5",
     "@sequencemedia/react-router-redux-render": "2.4.3",
-    "@sequencemedia/react-router-render": "2.4.3",
-    "debug": "^4.3.7"
+    "@sequencemedia/react-router-render": "2.4.5",
+    "debug": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
