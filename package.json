@@ -26,8 +26,8 @@
   "dependencies": {
     "@sequencemedia/react-redux-render": "2.3.14",
     "@sequencemedia/react-render": "2.3.13",
-    "@sequencemedia/react-router-redux-render": "2.4.14",
-    "@sequencemedia/react-router-render": "2.4.13",
+    "@sequencemedia/react-router-redux-render": "2.4.15",
+    "@sequencemedia/react-router-render": "2.4.14",
     "debug": "^4.4.0"
   },
   "devDependencies": {
