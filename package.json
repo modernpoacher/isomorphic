@@ -4,6 +4,7 @@
   "description": "Isomorphic React + Redux + React Router",
   "main": "./src/index.mjs",
   "type": "module",
+  "types": "./src/index.d.mts",
   "author": {
     "email": "modernpoacher@modernpoacher.com",
     "name": "Jonathan Perry for Modern Poacher Limited",
@@ -18,7 +19,7 @@
     "url": "git://github.com/modernpoacher/isomorphic.git"
   },
   "scripts": {
-    "lint": "eslint . --ext .mjs,.cjs",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky",
     "test": "cross-env NODE_ENV=test mocha test --recursive"
@@ -32,15 +33,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
-    "@babel/eslint-parser": "^7.26.10",
+    "@babel/plugin-syntax-jsx": "^7.25.9",
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
     "@babel/register": "^7.25.9",
+    "@sequencemedia/eslint-config-standard": "^0.2.44",
     "chai": "^5.2.0",
     "core-js": "^3.41.0",
     "cross-env": "^7.0.3",
-    "eslint": "8.57.1",
-    "eslint-config-standard": "^17.1.0",
+    "eslint": "^9.23.0",
     "husky": "^9.1.7",
     "mocha": "^11.1.0",
     "prop-types": "^15.8.1",
