@@ -25,10 +25,10 @@
     "test": "cross-env NODE_ENV=test mocha test --recursive"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.4.29",
-    "@sequencemedia/react-render": "2.4.29",
-    "@sequencemedia/react-router-redux-render": "2.5.30",
-    "@sequencemedia/react-router-render": "2.5.30",
+    "@sequencemedia/react-redux-render": "2.4.31",
+    "@sequencemedia/react-render": "2.4.31",
+    "@sequencemedia/react-router-redux-render": "2.5.32",
+    "@sequencemedia/react-router-render": "2.5.32",
     "debug": "^4.4.0"
   },
   "devDependencies": {
@@ -41,7 +41,7 @@
     "chai": "^5.2.0",
     "core-js": "^3.42.0",
     "cross-env": "^7.0.3",
-    "eslint": "^9.25.1",
+    "eslint": "^9.26.0",
     "husky": "^9.1.7",
     "mocha": "^11.2.2",
     "prop-types": "^15.8.1",
