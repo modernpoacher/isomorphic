@@ -25,10 +25,10 @@
     "test": "cross-env NODE_ENV=test mocha test --recursive"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.4.32",
-    "@sequencemedia/react-render": "2.4.32",
-    "@sequencemedia/react-router-redux-render": "2.5.33",
-    "@sequencemedia/react-router-render": "2.5.33",
+    "@sequencemedia/react-redux-render": "2.4.33",
+    "@sequencemedia/react-render": "2.4.33",
+    "@sequencemedia/react-router-redux-render": "2.5.34",
+    "@sequencemedia/react-router-render": "2.5.34",
     "debug": "^4.4.0"
   },
   "devDependencies": {
