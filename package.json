@@ -27,7 +27,7 @@
   "dependencies": {
     "@sequencemedia/react-redux-render": "2.4.71",
     "@sequencemedia/react-render": "2.4.71",
-    "@sequencemedia/react-router-redux-render": "2.5.71",
+    "@sequencemedia/react-router-redux-render": "2.5.72",
     "@sequencemedia/react-router-render": "2.5.72",
     "debug": "^4.4.1"
   },
@@ -41,7 +41,7 @@
     "chai": "^5.2.0",
     "core-js": "^3.43.0",
     "cross-env": "^7.0.3",
-    "eslint": "^9.30.0",
+    "eslint": "^9.30.1",
     "husky": "^9.1.7",
     "mocha": "^11.7.1",
     "prop-types": "^15.8.1",
