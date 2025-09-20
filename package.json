@@ -37,7 +37,7 @@
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
     "@babel/register": "^7.28.3",
-    "@sequencemedia/eslint-config-standard": "^0.2.84",
+    "@sequencemedia/eslint-config-standard": "^0.2.85",
     "chai": "^6.0.1",
     "core-js": "^3.45.1",
     "cross-env": "^10.0.0",
