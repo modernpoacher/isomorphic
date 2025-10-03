@@ -25,10 +25,10 @@
     "test": "cross-env NODE_ENV=test mocha test --recursive"
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.4.115",
-    "@sequencemedia/react-render": "2.4.115",
-    "@sequencemedia/react-router-redux-render": "2.5.118",
-    "@sequencemedia/react-router-render": "2.5.118",
+    "@sequencemedia/react-redux-render": "2.4.116",
+    "@sequencemedia/react-render": "2.4.116",
+    "@sequencemedia/react-router-redux-render": "2.5.119",
+    "@sequencemedia/react-router-render": "2.5.119",
     "debug": "^4.4.3"
   },
   "devDependencies": {
@@ -37,16 +37,16 @@
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
     "@babel/register": "^7.28.3",
-    "@sequencemedia/eslint-config-standard": "^0.2.86",
+    "@sequencemedia/eslint-config-standard": "^0.2.87",
     "chai": "^6.2.0",
     "core-js": "^3.45.1",
     "cross-env": "^10.1.0",
     "eslint": "^9.36.0",
     "husky": "^9.1.7",
-    "mocha": "^11.7.3",
+    "mocha": "^11.7.4",
     "prop-types": "^15.8.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-redux": "^9.2.0",
     "react-router": "^7.9.3",
     "redux": "^5.0.1"
