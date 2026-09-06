@@ -56,5 +56,8 @@
     "./react-router": "./src/react-router/index.mjs",
     "./react-router/redux": "./src/react-router/redux/index.mjs",
     "./redux": "./src/redux/index.mjs"
+  },
+  "allowScripts": {
+    "core-js@3.50.0": true
   }
 }
