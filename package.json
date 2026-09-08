@@ -24,6 +24,9 @@
     "prepare": "node husky.mjs",
     "test": "cross-env NODE_ENV=test mocha test --recursive"
   },
+  "allowScripts": {
+    "core-js@3.50.0": true
+  },
   "dependencies": {
     "@sequencemedia/react-redux-render": "2.4.184",
     "@sequencemedia/react-render": "2.4.184",
@@ -56,8 +59,5 @@
     "./react-router": "./src/react-router/index.mjs",
     "./react-router/redux": "./src/react-router/redux/index.mjs",
     "./redux": "./src/redux/index.mjs"
-  },
-  "allowScripts": {
-    "core-js@3.50.0": true
   }
 }
