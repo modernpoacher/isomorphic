@@ -28,10 +28,10 @@
     "core-js@3.50.0": true
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.4.185",
-    "@sequencemedia/react-render": "2.4.185",
+    "@sequencemedia/react-redux-render": "2.4.186",
+    "@sequencemedia/react-render": "2.4.186",
     "@sequencemedia/react-router-redux-render": "2.5.193",
-    "@sequencemedia/react-router-render": "2.5.194",
+    "@sequencemedia/react-router-render": "2.5.195",
     "debug": "^4.4.3"
   },
   "devDependencies": {
