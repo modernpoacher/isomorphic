@@ -28,10 +28,10 @@
     "core-js@3.51.0": true
   },
   "dependencies": {
-    "@sequencemedia/react-redux-render": "2.4.205",
-    "@sequencemedia/react-render": "2.4.205",
-    "@sequencemedia/react-router-redux-render": "2.5.213",
-    "@sequencemedia/react-router-render": "2.5.213",
+    "@sequencemedia/react-redux-render": "2.4.206",
+    "@sequencemedia/react-render": "2.4.206",
+    "@sequencemedia/react-router-redux-render": "2.5.214",
+    "@sequencemedia/react-router-render": "2.5.214",
     "debug": "^4.4.3"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "@babel/preset-env": "7.29.7",
     "@babel/preset-react": "7.29.7",
     "@babel/register": "7.29.7",
-    "@sequencemedia/eslint-config-standard": "0.4.2",
+    "@sequencemedia/eslint-config-standard": "0.4.3",
     "chai": "^6.3.0",
     "core-js": "^3.51.0",
     "cross-env": "^10.1.0",
